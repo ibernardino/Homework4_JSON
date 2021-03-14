@@ -38,6 +38,7 @@ namespace Problem2
 
             //The trim is just in case the user decides to put a space at the end for the if statement
             string breed = txtBreed.Text.Trim();
+            breed = breed.ToLower();
 
             if(breed.Contains(' ') == true)
             {
@@ -47,7 +48,7 @@ namespace Problem2
                 breed = $"{mainBreed}/{subBreed}";
             }
 
-            string url = "https://dog.ceo/api/breed/{breed}/images/random";
+            string url = $"https://dog.ceo/api/breed/{breed}/images/random";
 
             BreedAPI dog = null;
 
