@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <MediaElement x:Name="medVideo" HorizontalAlignment="Left" Height="254" Margin="10,102,0,0" VerticalAlignment="Top" Width="775" UnloadedBehavior="Manual" LoadedBehavior="Manual"/>
+        <MediaElement x:Name="medVideo" HorizontalAlignment="Left" Height="254" Margin="178,102,0,0" VerticalAlignment="Top" Width="479" UnloadedBehavior="Manual" LoadedBehavior="Manual"/>
         <Button x:Name="btnPlay" Content="Play" HorizontalAlignment="Left" Margin="246,377,0,0" VerticalAlignment="Top" Width="75" Click="btnPlay_Click"/>
         <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" Margin="491,377,0,0" VerticalAlignment="Top" Width="75" Click="btnStop_Click"/>
         <Button x:Name="btnGetVideo" Content="Get Video" HorizontalAlignment="Left" Margin="366,62,0,0" VerticalAlignment="Top" Width="75" Click="btnGetVideo_Click"/>
