@@ -1,0 +1,4 @@
+﻿1.{"name": "The Winston", "menu" : "Chambongs", "location" : "Main Street"}
+2.{"name": "The Mont", "menu":[Sooner Swirl, Cheese Fries, Margarita], "location" : "Classen Blvd"}
+3.{"restuarants" : [{"name": "The Winston", "menu" : "Chambongs", "location" : "Main Street"},
+{"name": "The Mont", "menu":[Sooner Swirl, Cheese Fries, Margarita], "location" : "Classen Blvd"}]}
