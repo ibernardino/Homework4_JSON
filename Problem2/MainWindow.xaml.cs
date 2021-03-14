@@ -26,7 +26,6 @@ namespace Problem2
         {
             InitializeComponent();
             txtBreed.Text = string.Empty;
-
         }
 
         private void btnGo_Click(object sender, RoutedEventArgs e)
